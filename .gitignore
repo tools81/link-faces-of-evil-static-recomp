@@ -1,0 +1,16 @@
+# game data: never committed (bring your own disc image)
+rom/
+extracted/
+# generated from the disc by build.bat / tools/gen_tests.py
+gen/
+test/insn_tests.c
+# build output and packages
+build/
+dist/
+/*.exe
+# runtime data
+saves/
+update/
+linkfoe.ini
+__pycache__/
+*.pyc
